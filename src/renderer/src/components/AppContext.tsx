@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useEffect, useRef, useState } from 'react'
 import toast from 'react-hot-toast'
-import { Toast, ToastCustomEnum } from '@renderer/components'
+import { Toast } from '@renderer/components'
+import { ToastCustomEnum } from '@renderer/components/ToastCustom'
 
 interface AppContextType {
   tasks: any[]

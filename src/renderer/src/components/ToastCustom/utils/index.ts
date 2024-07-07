@@ -1,6 +1,6 @@
 import { Toast } from 'react-hot-toast'
 
-export const enum ToastCustomEnum {
+export enum ToastCustomEnum {
   error = 'error',
   success = 'success',
 }

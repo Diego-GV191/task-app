@@ -1,5 +1,5 @@
 import { twMerge } from 'tailwind-merge'
-import { ToastCustomEnum, ToastProps } from '@renderer/components'
+import { ToastCustomEnum, ToastProps } from './utils'
 import { useEffect, useState } from 'react'
 import { MdErrorOutline, MdCheck } from 'react-icons/md'
 
@@ -24,7 +24,7 @@ export const Toast = ({ t, body, status, title }: ToastProps) => {
       className={twMerge(
         anim ? 'top-4' : '-top-36',
         'max-w-md w-full bg-neutral-100/75 dark:bg-neutral-700/75 backdrop-blur-sm shadow-lg rounded-2xl flex',
-        'p-2 flex items-center duration-200 absolute',
+        'p-2 flex items-center duration-200 absolute select-none',
       )}
       style={{ zIndex: 9999999 }}
     >

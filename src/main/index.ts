@@ -5,15 +5,19 @@ import { electronApp, optimizer, is } from '@electron-toolkit/utils'
 import icon from '../../resources/icon.png?asset'
 
 function createWindow(): void {
+  const iconPath = path.join(__dirname, '../../resources/app_ico.png')
+
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 900,
     height: 670,
     minWidth: 800,
     minHeight: 400,
+    title: 'App de tareas',
     center: true,
     show: false,
     autoHideMenuBar: true,
+    icon: iconPath,
     ...(process.platform === 'linux' ? { icon } : {}),
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),

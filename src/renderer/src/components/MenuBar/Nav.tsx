@@ -51,7 +51,7 @@ export const Nav = () => {
       <MenuNav
         title="Github"
         onClick={() => {
-          window.open('https://github.com/Diego-GV191/')
+          window.open('https://github.com/Diego-GV191/task-app')
         }}
       />
 
