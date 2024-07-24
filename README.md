@@ -7,10 +7,10 @@ Vista principal
 ![inicio](https://github.com/Diego-GV191/task-app/blob/main/images/inicio.png)
 
 - Control de tema
-  ![tema](https://github.com/Diego-GV191/task-app/blob/main/images/contorl%20de%20tema.png)
 
-- Control de progreso
-  con botones o drag and drop
+![tema](https://github.com/Diego-GV191/task-app/blob/main/images/contorl%20de%20tema.png)
+
+- Control de progresocon botones o drag and drop
   ![progreso](https://github.com/Diego-GV191/task-app/blob/main/images/control%20de%20progreso.png)
 
 ## Recommended IDE Setup
