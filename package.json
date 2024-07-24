@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "An Electron application with React and TypeScript",
   "main": "./out/main/index.js",
-  "author": "example.com",
-  "homepage": "https://electron-vite.org",
+  "author": "Diego-GV191",
+  "homepage": "https://github.com/Diego-GV191/task-app",
+  "icon": "resources/app_ico_128x128.ico",
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
