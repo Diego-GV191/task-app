@@ -1,6 +1,8 @@
-# task-app
+# App de tareas
 
-An Electron application with React and TypeScript
+Organizador de tareas
+
+![inicio](https://github.com/Diego-GV191/task-app/blob/main/images/inicio.png)
 
 ## Recommended IDE Setup
 
